@@ -2,10 +2,10 @@
   "name": "be-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon index.js",
+    "watch": "nodemon src/index.js",
     "lint": "./node_modules/.bin/eslint ."
   },
   "repository": {
@@ -23,5 +23,8 @@
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "2.7.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
   }
 }

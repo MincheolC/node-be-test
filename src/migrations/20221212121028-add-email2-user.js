@@ -11,8 +11,8 @@ module.exports = {
      */
     await queryInterface.addColumn("users", "email2", {
       allowNull: false,
-      unique: true,
       type: Sequelize.STRING,
+      defaultValue: "",
     });
   },
 

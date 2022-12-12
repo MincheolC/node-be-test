@@ -8,8 +8,6 @@ const { env } = require("../config/config");
 const config = require("../config/config")[env];
 const db = {};
 
-console.log(config);
-
 const sequelize = new Sequelize(
   config.database,
   config.username,

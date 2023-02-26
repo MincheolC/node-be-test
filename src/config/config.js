@@ -24,4 +24,5 @@ module.exports = {
   development: sequelizeMysqlConfig,
   test: sequelizeMysqlConfig,
   production: sequelizeMysqlConfig,
+  logging: false,
 };
